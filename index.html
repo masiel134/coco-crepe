@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="imagenes/LOGO.PNG" alt="logo" width="80" height="80" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="btn btn-outline-secondary" href="index.html">Inicio</a>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-secondary" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-secondary" href="informacion.html">Información</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-secondary" href="mas_cosas.html">Más cosas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-secondary" href="AudioVideo.Html">AudioVideo</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex ms-auto">
+                        <a class="btn btn-outline-secondary me-3" href="iniciarsesion.html">Iniciar Sesión</a>
+                        <a class="btn btn-outline-secondary" href="registrarse.html">Registrarse</a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="carrusel"></section>
+        <h2 class="recomendacion my-4">
+            Recomendación
+        </h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-container">
+                        <img src="imagenes/crepe 1.jpg" class="d-block" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-container">
+                        <img src="imagenes/crepe 2.jpg" class="d-block" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-container">
+                        <img src="imagenes/crepe 33.jpg" class="d-block" alt="...">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3 class="nose my-4">CocoMenu</h3>
+        <div class="row">
+            <div class="col-xs-4 col-md-12 col-lg-4  mb-4">
+                <div class="cocomenu">
+                    <div class="row">
+                        <div class="col-8">
+                            <ul class="list-unstyled">
+                                <li>Crêpe Fudge y Fresas</li>
+                                <li>Crêpe Fudge y Plátano</li>
+                                <li>Crêpe Fudge, Fresas y Plátano</li>
+                                <li>Crêpe Fudge</li>
+                                <li>Crêpe Crema Pastelera</li>
+                                <li>Crêpe Nutella</li>
+                                <li>Crêpe Crema Pastelera</li>
+                                <li>Crêpe Manjar</li>
+                                <li>Crêpe Fresas</li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul class="list-unstyled">
+                                <li>s/13.00</li>
+                                <li>s/13.00</li>
+                                <li>s/15.00</li>
+                                <li>s/10.00</li>
+                                <li>s/10.00</li>
+                                <li>S/15.00</li>
+                                <li>S/13.00</li>
+                                <li>S/14.00</li>
+                                <li>S/10.00</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="d-flex flex-column align-items-center">
+                    <p style="font-size: 12px;" class="mt-2">AV. LOS MAESTROS 206 CC EL QUINDE - 1ER PISO Int 123A, Ica, Peru</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d684.1294706900451!2d-75.7391677495795!3d-14.075954763693337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e31301016b11%3A0x9cfc551e53fd7946!2sCoco%20Cr%C3%AApe%20-%20MegaPlaza%20Ica!5e0!3m2!1ses-419!2spe!4v1720795630566!5m2!1ses-419!2spe" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="d-flex flex-column align-items-center">
+                    <p class="mt-2">Avenida San Martín N°727 C. C. Plaza del Sol Ica,</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3254.3275290599295!2d-75.7311071573503!3d-14.07307605540056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e30073c17913%3A0xdd0cbdcd0bd3805c!2sCoco%20Cr%C3%AApe%20-%20Plaza%20del%20Sol%20Ica!5e0!3m2!1ses-419!2spe!4v1720795528999!5m2!1ses-419!2spe" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer class="footer">
+        <div>
+            <h4 class="d-flex justify-content-start-30 pt-4 ps-4">
+                <img src="imagenes/LOGO.PNG" alt="logo">    
+            </h4>
+        </div>
+        <div class="abajo w-100 row justify-content-center">
+            <div class="col-12 col-lg-3">
+                <ul>Coco Crêpe es una casa de panqueques que ofrece servicios profesionales y ofrece panqueques.</ul>
+            </div>
+            <div class="col-6 col-lg-3">
+                <ul class="lista1" style="list-style: none;">
+                    <li><a href="index.html" class="footer-enlace">Sobre nosotros</a></li>
+                    <li><a href="index.html" class="footer-enlace">Productos</a></li>
+                    <li><a href="index.html" class="footer-enlace">Dónde comprar</a></li>
+                    <li><a href="index.html" class="footer-enlace">Contáctanos</a></li>
+                </ul>
+            </div>
+            <div class="abajito col-6 col-lg-3">
+                <ul class="lista1">
+                    <li><a href="index.html" class="footer-enlace">Términos y Condiciones</a></li>
+                    <li><a href="index.html" class="footer-enlace">Políticas de delivery</a></li>
+                    <li><a href="index.html" class="footer-enlace">Políticas de promociones</a></li>
+                    <li><a href="index.html" class="footer-enlace">Protección de datos personales</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
